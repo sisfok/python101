@@ -1,0 +1,31 @@
+title: Python101
+description: >- 
+  Tutorial Python dasar untuk mata kuliah Pengantar Pemprograman.
+url: "https://python.ilkom.my.id/"
+github_username:  sisfok
+
+plugins:
+  - jekyll-asciidoc
+  - jekyll-redirect-from
+  - jekyll-feed
+
+asciidoctor:
+  attributes:
+    - icons=font
+    - source-highlighter=rouge
+    - sectanchors=_
+    - experimental=_
+    - rouge-style=github
+    - stylesdir=css
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'rouge'
+
+sass:
+  style: compressed
