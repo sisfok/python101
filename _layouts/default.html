@@ -55,11 +55,12 @@
 
   <!-- toc dan summary -->
   <aside>
-    <div class="toc">
+    <div>
       <details>
         <summary>Daftar Isi</summary>
         {% if page.document %}
-        {% capture toc %}{{ page.document | tocify_asciidoc }}{% endcapture %}{% if toc != '' %}<div class="toc">
+        {% capture toc %}{{ page.document | tocify_asciidoc }}{% endcapture %}{% if toc != '' %}
+        <div class="toc">
           {{ toc }}
         </div>{% endif %}
         {% endif %}

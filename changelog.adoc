@@ -7,6 +7,9 @@ desc        : >
   Setiap lakukan perubahan, harap ditulis disini.
 ---
 
+:toc:
+:toclevels: 5
+
 == 2023
 === Agustus
 . Mendesain ulang website untuk mempercantik tampilan.

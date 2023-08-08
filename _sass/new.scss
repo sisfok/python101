@@ -110,10 +110,16 @@ aside {
     .toc {
       display: flex;
       order: 1;
-    }
 
-    li {
-      list-style: decimal-leading-zero;
+      ul {
+        counter-reset: item;
+        list-style: none;
+      }
+
+      li:before {
+        content: counters(item, ".") ". ";
+        counter-increment: item;
+      }
     }
 
     a {
@@ -127,16 +133,15 @@ aside {
 
 main {
   text-align: justify;
-  display: inline !important;
 }
 
 li p {
   padding-left: 1ch;
 }
 
-li::marker {
-  content: "+";
-}
+// li::marker {
+//   content: "+";
+// }
 
 .post::marker {
   content: "λ";
