@@ -70,9 +70,16 @@ print(type(3.14))
 print(type(1j))
 ----
 
-Menghasilkan:
-
-image:/assets/img/ss-py-typed.png[]
+.Hasilnya
+[%collapsible]
+====
+[source, bash]
+----
+<class 'int'>
+<class 'float'>
+<class 'complex'>
+----
+====
 
 === string
 
@@ -87,9 +94,15 @@ print(name[1])
 print(name[:3])
 ----
 
-Menghasilkan:
-
-image:/assets/img/ss-py-string.png[]
+.Hasilnya
+[%collapsible]
+====
+[source, bash]
+----
+i
+Gin
+----
+====
 
 === list
 
