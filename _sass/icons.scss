@@ -10,7 +10,7 @@
   }
 }
 
-.id::after { background: url("/assets/img/ico.svg#id"); }
+.id::after { background: url("/assets/img/ico.svg#id"); opacity: .8;}
 .yt::after { background: url("/assets/img/ico.svg#yt"); }
 .wiki::after { background: url("/assets/img/ico.svg#wikipedia"); height: 1.4rem; width: 1.4rem; top: -3px; margin-left: 3px;}
 .pdf::after { background: url("/assets/img/ico.svg#pdf"); height: 1.4rem; width: 1.4rem; top: 4px;}

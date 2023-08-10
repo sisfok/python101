@@ -40,6 +40,28 @@ Meoworld!
 ----
 ====
 
+== Input dan Output
+
+Input menggunakan fungsi `input()`. Output menggunakan fungsi `print()`.
+
+Misalnya:
+
+[source, python]
+----
+name = input()
+print(name)
+----
+
+.Hasilnya
+[%collapsible]
+====
+[source, bash]
+----
+> Deo
+Deo
+----
+====
+
 == variabel
 
 Nama variabel haruslah [.wiki]#https://en.wikipedia.org/wiki/Letter_case[lowercase]#,
